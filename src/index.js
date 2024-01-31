@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 // import ReactDOM from 'react-dom/client';
 import './index.css';
-// import App from './App';
+import App from './App';
 // import reportWebVitals from './reportWebVitals';
 
 // const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -16,15 +16,5 @@ import './index.css';
 // // to log results (for example: reportWebVitals(console.log))
 // // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 // reportWebVitals();
-
-class App extends React.Component {
-  render() {
-    return (
-      <div className="App">
-        <h1>Hello, React!</h1>
-      </div>
-    )
-  }
-}
 
 ReactDOM.render(<App />, document.getElementById('root'))
