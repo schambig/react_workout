@@ -30,7 +30,7 @@ class App extends Component {
       <div className="container">
         <Table characterData={characters} removeCharacter={this.removeCharacter} />
         {/* <h1>Hello, React!</h1> */}
-        <Form />
+        <Form handleSubmit={this.handleSubmit}/>
       </div>
     )
   }
